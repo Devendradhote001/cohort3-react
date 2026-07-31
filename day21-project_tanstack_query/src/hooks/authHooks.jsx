@@ -14,7 +14,7 @@ export const useAuth = () => {
 
   let {
     register,
-    handleSubmit,
+    handleSubmit, 
     reset,
     formState: { errors },
   } = useForm();
